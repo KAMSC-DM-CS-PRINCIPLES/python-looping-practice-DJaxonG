@@ -9,9 +9,9 @@ def guessing_game():
     if(num==15):
         return "Congratulations! You guessed it!"
     elif(num>15):
-        return "Too high! Try again."
-    else:
         return "Too low! Try again."
+    else:
+        return "Too high! Try again."
 
 
 if __name__ == "__main__":
