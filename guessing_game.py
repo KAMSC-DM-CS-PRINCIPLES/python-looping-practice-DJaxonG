@@ -8,11 +8,11 @@ def guessing_game():
     while():
         num = int(input("Enter your guess: "))
         if(num==15):
-            return "Congratulations! You guessed it!"
+            print("Congratulations! You guessed it!")
         elif(num>15):
-            return "Too high! Try again."
+            print("Too high! Try again.")
         else:
-            return "Too low! Try again."
+            print("Too low! Try again.")
 
 
 if __name__ == "__main__":
