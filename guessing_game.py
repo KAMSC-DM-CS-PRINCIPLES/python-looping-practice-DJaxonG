@@ -9,6 +9,7 @@ def guessing_game():
         num = int(input("Enter your guess: "))
         if(num==15):
             print("Congratulations! You guessed it!")
+            break
         elif(num>15):
             print("Too high! Try again.")
         else:
