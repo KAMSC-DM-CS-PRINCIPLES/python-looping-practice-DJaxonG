@@ -6,7 +6,8 @@ def multiplication_table(n):
     # HINT: Use print() to display each multiplication
     for i in range(1, n + 1):
         for j in range(1, n + 1):
-            print(i*j)
+            mult = i*j
+            print(i ""
 
 if __name__ == "__main__":
     # create multiplication table below this
