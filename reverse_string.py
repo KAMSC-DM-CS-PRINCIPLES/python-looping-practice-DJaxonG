@@ -9,6 +9,8 @@ def reverse_string(text):
     for i in range(len(text) - 1, -1, -1):
         reText += text[i]
 
+    return reText
+
 if __name__ == "__main__":
     # create reverse string below this
     pass
