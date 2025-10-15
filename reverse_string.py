@@ -5,7 +5,11 @@ def reverse_string(text):
     # HINT: Start with reversed_text = ""
     # HINT: Return the reversed_text
     # HINT: NO SLICING ALLOWED - must use loops only
-    pass
+    reText = ""
+    for i in range(len(text) - 1, -1, -1):
+        reText += text[i]
+
+    return reText
 
 if __name__ == "__main__":
     # create reverse string below this
